@@ -6,6 +6,28 @@ dpkg-reconfigure tzdata
 apt-get install ntp
 ```
 
+## Nginx
+```
+apt-get -y install nginx
+```
+
+### Nginx config
+* `/etc/nginx/sites-available/default`
+Uncomment php section commands as below.
+
+```
+# pass PHP scripts to FastCGI server                                                                       
+#                                                                                                          
+location ~ \.php$ {                                                                                        
+        include snippets/fastcgi-php.conf;                                                                 
+
+        # With php-fpm (or other unix sockets):                                                            
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;                                                    
+#       # With php-cgi (or other tcp sockets):                                                             
+#       fastcgi_pass 127.0.0.1:9000;                                                                       
+}   
+```
+
 ## PHP & modules (extensions)
 ```
 apt-get -y install php7.4-fpm php7.4-cli
