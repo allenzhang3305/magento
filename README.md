@@ -13,6 +13,7 @@ apt-get -y install nginx
 
 ### Nginx config
 * `/etc/nginx/sites-available/default`
+
 Uncomment php section commands as below.
 
 ```
