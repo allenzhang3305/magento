@@ -1,5 +1,5 @@
 # magento
 
-## time zone and ntp
+## Time zone and ntp
 dpkg-reconfigure tzdata
 apt-get install ntp
