@@ -14,7 +14,7 @@ apt-get -y install nginx
 ### Nginx config
 * `/etc/nginx/sites-available/default`
 
-Uncomment php section commands as below.
+Uncomment the partial commands of the PHP section as below.
 
 ```
 # pass PHP scripts to FastCGI server                                                                       
