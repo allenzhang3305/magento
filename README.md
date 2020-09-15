@@ -6,7 +6,7 @@ dpkg-reconfigure tzdata
 apt-get install ntp
 ```
 
-# PHP & modules (extensions)
+## PHP & modules (extensions)
 ```
 apt-get -y install php7.4-fpm php7.4-cli
 ```
