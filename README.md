@@ -57,3 +57,6 @@ phpinfo();
 ?>
 ```
 
+
+## Reference
+* [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
