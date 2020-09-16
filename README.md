@@ -67,7 +67,7 @@ apt-get update
 apt-get install openjdk-11-jdk
 ```
 
-### [download 7.6.2](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
+### [download Elasticsearch 7.6.2](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
 
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
