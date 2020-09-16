@@ -57,7 +57,8 @@ phpinfo();
 ?>
 ```
 
-## [Get the Magento archives ](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#get-the-magento-software)
+[Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
+* [Get the Magento archives](https://magento.com/tech-resources/download)
 
 
 ## Composer 
