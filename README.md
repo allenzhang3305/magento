@@ -57,9 +57,11 @@ phpinfo();
 ?>
 ```
 
+* open `http://${HOST}/phpinfo.php` with a browser 
+
 ## Elasticsearch
 ### [OpenJDK](https://openjdk.java.net/)
-* [Support Matrix](https://www.elastic.co/support/matrix#matrix_jvm)
+* [support matrix](https://www.elastic.co/support/matrix#matrix_jvm)
 ```
 apt-get update
 apt-get install openjdk-11-jdk
@@ -67,7 +69,6 @@ apt-get install openjdk-11-jdk
 
 ### [download 7.6.2](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
 
-* open `http://${HOST}/phpinfo.php` with a browser 
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [get the Magento archives](https://magento.com/tech-resources/download)
