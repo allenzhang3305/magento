@@ -58,6 +58,13 @@ phpinfo();
 ```
 
 ## Elasticsearch
+## OpenJDK
+* [Support Matrix](https://www.elastic.co/support/matrix#matrix_jvm)
+```
+apt-get update
+apt-get install openjdk-11-jdk
+```
+
 ### [download 7.6.2](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
 
 * open `http://${HOST}/phpinfo.php` with a browser 
