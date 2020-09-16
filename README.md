@@ -48,7 +48,7 @@ systemctl restart php7.4-fpm.service
 systemctl restart nginx.service 
 ```
 
-### 
+### Verify PHP is installed
 * `/var/www/html/phpinfo.php`
 ```
 <?php
@@ -57,7 +57,9 @@ phpinfo();
 ?>
 ```
 
-[Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
+* open `http://$HOST/phpinfo.php` with a browser 
+
+## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [Get the Magento archives](https://magento.com/tech-resources/download)
 
 
