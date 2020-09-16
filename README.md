@@ -57,6 +57,9 @@ phpinfo();
 ?>
 ```
 
+## Elasticsearch
+### [download 7.6.2](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
+
 * open `http://${HOST}/phpinfo.php` with a browser 
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
