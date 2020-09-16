@@ -57,6 +57,9 @@ phpinfo();
 ?>
 ```
 
+## [Get the Magento archives ](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#get-the-magento-software)
+
+
 ## Composer 
 ### [Command-line installation](https://getcomposer.org/download/)
 ```
@@ -65,7 +68,6 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '795f976fe0ebd8b75f26a
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
-
 
 
 ## Reference
