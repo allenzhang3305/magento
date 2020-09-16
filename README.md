@@ -61,7 +61,7 @@ phpinfo();
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [get the Magento archives](https://magento.com/tech-resources/download)
-  * under *Archive (zip/tar)* section
+  * under **Archive (zip/tar)** section
 
 
 ## Composer 
