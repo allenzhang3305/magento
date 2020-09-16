@@ -67,13 +67,15 @@ apt-get update
 apt-get install openjdk-11-jdk
 ```
 
-### [download](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
+### [download ES](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
 ```
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
-### [Install Elasticsearch from archive](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html)
-
+### [install ES from archive](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html)
+```
+tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
+```
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [get the Magento archives](https://magento.com/tech-resources/download)
