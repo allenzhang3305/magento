@@ -65,6 +65,8 @@ phpinfo();
 apt-get install mysql-client-core-8.0
 ```
 
+### [Configuring the Magento database instance](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-config)
+
 ### usage
 ```
 mysql -h {mysql_server_host} -u ${username} -p 
