@@ -107,3 +107,6 @@ php -r "unlink('composer-setup.php');"
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
+### Connector
+* [SAP Business One Integration Add-on for Magento 2](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
+
