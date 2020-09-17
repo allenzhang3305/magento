@@ -59,6 +59,17 @@ phpinfo();
 
 * open `http://${HOST}/phpinfo.php` with a browser 
 
+## MySQL
+### install mysql-client
+```
+apt-get install mysql-client-core-8.0
+```
+
+### usage
+```
+mysql -h {mysql_server_host} -u ${username} -p 
+```
+
 ## Elasticsearch
 ### [OpenJDK](https://openjdk.java.net/)
 * [support matrix](https://www.elastic.co/support/matrix#matrix_jvm)
