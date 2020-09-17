@@ -94,6 +94,17 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 * [get the Magento archives](https://magento.com/tech-resources/download)
   * under **Archive (zip/tar)** section
 
+### [Install from the command line](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
+```
+./bin/magento setup:install --base-url=http://127.0.0.1/magento2/ \
+--db-host=${db_host} --db-name=magento --db-user=magento --db-password=${db_pass} \
+--admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com \
+--admin-user=admin --admin-password=${admin_pass} --language=zh_Hant_TW \
+--currency=TWD --timezone=Asia/Taipei --use-rewrites=1 \
+--search-engine=elasticsearch7 --elasticsearch-host=${es_host} \
+--elasticsearch-port=9200
+```
+
 
 ## Composer 
 ### [Command-line installation](https://getcomposer.org/download/)
