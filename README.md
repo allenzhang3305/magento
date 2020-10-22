@@ -106,7 +106,7 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
 
-~~## Composer 
+## ~~Composer~~
 ### [Command-line installation](https://getcomposer.org/download/)
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
