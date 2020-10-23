@@ -1,3 +1,6 @@
+# TOC
+* [Install the Magento with the compressed archive](#install-the-magento-with-the-compressed-archive)
+
 # magento
 
 ## Time zone and ntp
