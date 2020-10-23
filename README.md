@@ -1,22 +1,21 @@
 # TOC
 * [Install the Magento with the compressed archive](#install-the-magento-with-the-compressed-archive)
 
-# magento
-
-## Time zone and ntp
+## Linux and Web server setup under GCE
+### Time zone and ntp
 ```
 apt-get update
 dpkg-reconfigure tzdata
 apt-get install ntp
 ```
 
-## Nginx
+### Nginx
 ```
 apt-get update
 apt-get -y install nginx
 ```
 
-### Nginx config
+#### Nginx config
 * `/etc/nginx/sites-available/default`
 
 Uncomment the partial commands of the PHP section as below.
@@ -34,7 +33,7 @@ location ~ \.php$ {
 }   
 ```
 
-## PHP & modules (extensions)
+### PHP & modules (extensions)
 ```
 apt-get update
 apt-get -y install php7.4-fpm php7.4-cli
@@ -44,14 +43,14 @@ apt-get -y install php7.4-fpm php7.4-cli
 apt-get install php7.4-pdo php7.4-mysqlnd php7.4-opcache php7.4-xml php7.4-gd php7.4-devel php7.4-mysql php7.4-intl php7.4-mbstring php7.4-bcmath php7.4-json php7.4-iconv php7.4-soap php7.4-curl php7.4-zip
 ```
 
-## Check PHP/Nginx services
-### Restart services
+### Check PHP/Nginx services
+#### Restart services
 ```
 systemctl restart php7.4-fpm.service
 systemctl restart nginx.service 
 ```
 
-### Verify PHP is installed
+#### Verify PHP is installed
 * `/var/www/html/phpinfo.php`
 ```
 <?php
