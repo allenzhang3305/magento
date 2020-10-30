@@ -62,6 +62,14 @@ phpinfo();
 * open `http://${HOST}/phpinfo.php` with a browser 
 
 ## MySQL
+###
+```
+create database magento;
+create user 'magento'@'<remote web node server ip address> or %' IDENTIFIED BY 'magento';
+GRANT ALL ON magento.* TO 'magento'@'<remote web node server ip address> or %';
+flush privileges;
+```
+
 ### install mysql-client
 ```
 apt-get install mysql-client-core-8.0
