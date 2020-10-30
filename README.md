@@ -68,6 +68,7 @@ apt-get install mysql-client-core-8.0
 ```
 
 ### [Configuring the Magento database instance](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-config)
+* [GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
 
 ### usage
 ```
