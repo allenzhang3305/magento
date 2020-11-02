@@ -107,7 +107,18 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 * [get the Magento archives](https://magento.com/tech-resources/download)
   * under **Archive (zip/tar)** section
 * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
-* [Set permissions for shared hosting](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-shared)
+* [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
+```
+adduser <magento_user>
+usermod -a -G www-data <magento_user>
+
+su -l <magento_user>
+cd <magento_root>
+find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
+find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
+chown -R :<web server group> .
+chmod u+x bin/magento
+```
   
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
