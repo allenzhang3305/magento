@@ -65,24 +65,23 @@ phpinfo();
 
 ## MySQL
 ###
-```
-create database magento;
-create user 'magento'@'<remote web node server ip address> or %' IDENTIFIED BY 'magento';
-GRANT ALL ON magento.* TO 'magento'@'<remote web node server ip address> or %';
-flush privileges;
-```
-
 ### install mysql-client
 ```
 apt-get install mysql-client-core-8.0
+```
+### usage
+```
+mysql -h {mysql_server_host} -u ${username} -p 
 ```
 
 ### [Configuring the Magento database instance](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-config)
 * [GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
 
-### usage
 ```
-mysql -h {mysql_server_host} -u ${username} -p 
+create database magento;
+create user 'magento'@'<remote web node server ip address> or %' IDENTIFIED BY 'magento';
+GRANT ALL ON magento.* TO 'magento'@'<remote web node server ip address> or %';
+flush privileges;
 ```
 
 ## Elasticsearch
