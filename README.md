@@ -105,11 +105,20 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [get the Magento archives](https://magento.com/tech-resources/download)
   * under **Archive (zip/tar)** section
+  
 * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
+```
+sudo adduser <magento_user>
+cd <web server docroot>        # Ubuntu default: /var/www/html
+mkdir magento2
+cp magento-xxx.zip magento2
+cd magento2
+unzip magento-xxx.zip
+```
+
 * [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
 ```
-adduser <magento_user>
-usermod -a -G www-data <magento_user>
+sudo usermod -a -G www-data <magento_user>
 
 su -l <magento_user>
 cd <magento_root>
