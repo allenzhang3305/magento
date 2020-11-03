@@ -17,8 +17,6 @@ apt-get -y install nginx
 ```
 
 #### Nginx config
-* [config an new virtual host](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
-
 * Optional, enable default PHP interpreter  
 
 Uncomment the partial commands of the PHP section in `/etc/nginx/sites-available/default`.
@@ -104,7 +102,9 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
-* [get the Magento archives](https://magento.com/tech-resources/download)
+* [Config an new virtual host, Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
+
+* [Get the Magento archives](https://magento.com/tech-resources/download)
   * under **Archive (zip/tar)** section
   
 * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
@@ -128,7 +128,7 @@ find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws 
 chown -R :<web server group> .
 chmod u+x bin/magento
 ```
-  
+
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
