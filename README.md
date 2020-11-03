@@ -18,7 +18,7 @@ apt-get -y install nginx
 #### Nginx config
 * [config an new virtual host](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
 
-* Optional, enable php interpreter  
+* Optional, enable default PHP interpreter  
 
 Uncomment the partial commands of the PHP section in `/etc/nginx/sites-available/default`.
 
