@@ -65,7 +65,7 @@ phpinfo();
 * open `http://${HOST}/phpinfo.php` with a browser 
 
 ## MySQL
-###
+### [Installing MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-ubuntu)
 ### install mysql-client
 ```
 apt-get install mysql-client-core-8.0
