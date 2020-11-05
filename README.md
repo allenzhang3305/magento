@@ -108,8 +108,11 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 * [Config an new virtual host, Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
 
 * Get the Magento package
-  * [compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.    
-  * or, [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
+  * [Compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.        
+  * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
+    * Install Composer
+      `curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer` 
+      `composer self-update 1.10.16`, downgrade it back to version 1.x due to a recent incompatibility issue with one of the packages.
     * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
   
   
