@@ -107,8 +107,11 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [Config an new virtual host, Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
 
-* [Get the Magento archives](https://magento.com/tech-resources/download)
-  * under **Archive (zip/tar)** section
+* Get the Magento package
+  * [compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.    
+  * or, [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
+    * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
+  
   
 * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
 ```
