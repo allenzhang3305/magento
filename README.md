@@ -1,5 +1,6 @@
 ## TOC
 * [Linux and Web server setup under GCE](#linux-and-web-server-setup-under-gce)
+* [MySQL](#mysql)
 * [Install the Magento with the compressed archive](#install-the-magento-with-the-compressed-archive)
 
 ## Linux and Web server setup under GCE
