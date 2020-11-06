@@ -109,6 +109,9 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * [Config an new virtual host, Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
 
+* Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
+`sudo adduser <magento_user>`
+
 * Get the Magento package
   * [Compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.        
   * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
@@ -145,13 +148,11 @@ chmod u+x bin/magento
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
-./bin/magento setup:install --base-url=http://127.0.0.1/magento2/ \
+./bin/magento setup:install --base-url=http://127.0.0.1/ \
 --db-host=${db_host} --db-name=magento --db-user=magento --db-password=${db_pass} \
 --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com \
 --admin-user=admin --admin-password=${admin_pass} --language=zh_Hant_TW \
 --currency=TWD --timezone=Asia/Taipei --use-rewrites=1 \
---search-engine=elasticsearch7 --elasticsearch-host=${es_host} \
---elasticsearch-port=9200
 ```
 
 
