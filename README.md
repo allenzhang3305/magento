@@ -110,7 +110,9 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 * [Config an new virtual host, Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
 
 * Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
-`sudo adduser <magento_user>`
+  ```
+  sudo adduser <magento_user>
+  ```
 
 * Get the Magento package
   * [Compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.        
