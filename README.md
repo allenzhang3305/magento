@@ -145,7 +145,8 @@ chown -R :<web server group> .
 chmod u+x bin/magento
 ```
 
-* [Nginx, Config the Server Block](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)
+* Config the [Server Block](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/#two-server-blocks-serving-static-files) of Nginx
+  * [configuration](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)     
   ```
   upstream fastcgi_backend {
       server  unix:/run/php/php7.4-fpm.sock;
