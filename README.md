@@ -87,19 +87,21 @@ flush privileges;
 ```
 
 ## Elasticsearch
-### [OpenJDK](https://openjdk.java.net/)
-* [support matrix](https://www.elastic.co/support/matrix#matrix_jvm)
+* [OpenJDK](https://openjdk.java.net/)
+  * [support matrix](https://www.elastic.co/support/matrix#matrix_jvm)
 ```
-apt-get update
-apt-get install openjdk-11-jdk
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
 ```
 
-### [download ES](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
+* [download ES](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
 ```
+adduser elk
+sudo su -l elk
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
-### [install ES from archive](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html)
+* [install ES from archive](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html)
 ```
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
