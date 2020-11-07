@@ -132,11 +132,15 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
       curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
       composer self-update 1.10.16    # downgrade it back to version 1.x due to a recent incompatibility issue with one of the packages.
       ```
-      
-    * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
+    
+    * Create a new Composer project (get the Magento software metapackage)
       ```
-      composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
-      ```    
+      sudo su -l <web server docroot>
+      cd /var/www/html/magento2
+      composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
+      ```      
+      * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
+         
 
 
 * [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
