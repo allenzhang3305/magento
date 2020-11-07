@@ -113,25 +113,31 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
   ```
 
 * Get the Magento package
-  * [Compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.        
+  * [Compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.
+    * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
+      ```
+      cd /var/www/html
+      sudo mkdir magento2
+      sudo cp <src path>/magento-ce-2.4.1-2020-09-25-04-08-02.zip magento2/
+      sudo chown -R <magento_user>:<magento_user> magento2
+      
+      sudo su -l <web server docroot>
+      cd /var/www/html/magento2
+      unzip magento-ce-2.4.1-2020-09-25-04-08-02.zip
+      ```
+      
   * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
     * Install Composer
       ```
       curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
       composer self-update 1.10.16    # downgrade it back to version 1.x due to a recent incompatibility issue with one of the packages.
       ```
+      
     * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
-  
-  
-* [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
-```
-sudo adduser <magento_user>
-cd <web server docroot>        # Ubuntu default: /var/www/html
-mkdir magento2
-cp magento-xxx.zip magento2
-cd magento2
-unzip magento-xxx.zip
-```
+      ```
+      composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
+      ```    
+
 
 * [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
 ```
