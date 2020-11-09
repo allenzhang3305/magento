@@ -11,6 +11,11 @@ dpkg-reconfigure tzdata
 apt-get install ntp
 ```
 
+### Unzip
+```
+apt-get install unzip
+```
+
 ### Nginx
 ```
 apt-get update
