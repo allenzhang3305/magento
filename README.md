@@ -185,6 +185,12 @@ chmod u+x bin/magento
 ```
 
 
+## Command-line
+* `magento config:show`
+* `magento setup:store-config:set --base-url="http://${Host-IP}/"`
+
+
+
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
 * [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
