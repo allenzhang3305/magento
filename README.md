@@ -16,7 +16,7 @@ apt-get install ntp
 apt-get install unzip
 ```
 
-### PHP & modules (extensions)
+### [PHP & modules (extensions)](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html#verify-installed-extensions)
 ```
 apt-get update
 apt-get -y install php7.4-fpm php7.4-cli
