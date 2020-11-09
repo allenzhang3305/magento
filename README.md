@@ -18,7 +18,6 @@ apt-get install unzip
 
 ### Nginx
 ```
-apt-get update
 apt-get -y install nginx
 ```
 
