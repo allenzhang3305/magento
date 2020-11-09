@@ -158,18 +158,19 @@ chmod u+x bin/magento
 
 * Config the [Server Block](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/#two-server-blocks-serving-static-files) of Nginx
   * [configuration](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)     
-  ```
-  upstream fastcgi_backend {
-      server  unix:/run/php/php7.4-fpm.sock;
-  }
+    * `/etc/nginx/sites-available/magento`
+    ```
+    upstream fastcgi_backend {
+        server  unix:/run/php/php7.4-fpm.sock;
+    }
 
-  server {
-      listen 80;
-      server_name www.magento-dev.com;
-      set $MAGE_ROOT /var/www/html/magento2;
-      include /var/www/html/magento2/nginx.conf.sample;
-  }
-  ```
+    server {
+        listen 80;
+        server_name www.magento-dev.com;
+        set $MAGE_ROOT /var/www/html/magento2;
+        include /var/www/html/magento2/nginx.conf.sample;
+    }
+    ```
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
