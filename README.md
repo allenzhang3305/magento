@@ -188,7 +188,7 @@ chmod u+x bin/magento
 ## Command-line
 * `magento config:show`
 * `magento setup:store-config:set --base-url="http://${Host-IP}/"`
-* `bin/magento module:disable Magento_TwoFactorAuth`
+* `magento module:disable Magento_TwoFactorAuth`
 
 
 ## Reference
