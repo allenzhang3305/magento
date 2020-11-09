@@ -48,6 +48,12 @@ location ~ \.php$ {
 ```
 
 ### [Check PHP settings](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html#check-php-settings)
+```
+<?php
+// Show all information, defaults to INFO_ALL
+phpinfo();
+?>
+```
 
 ### Check PHP/Nginx services
 #### Restart services
@@ -57,7 +63,7 @@ systemctl restart nginx.service
 ```
 
 #### Verify PHP is installed
-* `/var/www/html/phpinfo.php`
+* [/var/www/html/phpinfo.php`](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/optional.html#install-optional-phpinfo)
 ```
 <?php
 // Show all information, defaults to INFO_ALL
