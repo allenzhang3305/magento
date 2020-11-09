@@ -48,12 +48,6 @@ apt-get install php7.4-pdo php7.4-mysqlnd php7.4-opcache php7.4-xml php7.4-gd ph
 ```
 
 ### [Check PHP settings](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html#check-php-settings)
-```
-<?php
-// Show all information, defaults to INFO_ALL
-phpinfo();
-?>
-```
 
 ### Check PHP/Nginx services
 #### Restart services
@@ -63,7 +57,7 @@ systemctl restart nginx.service
 ```
 
 #### Verify PHP is installed
-* [/var/www/html/phpinfo.php`](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/optional.html#install-optional-phpinfo)
+* [/var/www/html/phpinfo.php](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/optional.html#install-optional-phpinfo)
 ```
 <?php
 // Show all information, defaults to INFO_ALL
