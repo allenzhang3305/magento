@@ -57,6 +57,7 @@ systemctl restart nginx.service
 ```
 
 #### Verify PHP is installed
+* we have tested on `PHP v7.4.1/v7.4.3`.
 * [/var/www/html/phpinfo.php](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/optional.html#install-optional-phpinfo)
 ```
 <?php
