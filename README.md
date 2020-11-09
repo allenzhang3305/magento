@@ -93,7 +93,7 @@ flush privileges;
   * [support matrix](https://www.elastic.co/support/matrix#matrix_jvm)
 ```
 sudo apt-get update
-sudo apt-get install openjdk-11-jdk
+sudo apt-get install openjdk-8-jdk
 ```
 
 * [download ES](https://www.elastic.co/downloads/past-releases/elasticsearch-7-6-2)
