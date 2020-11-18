@@ -197,5 +197,5 @@ chmod u+x bin/magento
 * [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
 ### Connector
 * [SAP Business One Connect, i95Dev](https://marketplace.magento.com/i95dev-i95devsapconnect.html)
-* [SAP Business One Integration Add-on for Magento 2](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
+* [SAP Business One Integration Add-on for Magento 2, Firebear](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
 * [APPSeCONNECT, insync](https://www.appseconnect.com/sap-business-one-and-magento-integration/)
