@@ -198,3 +198,4 @@ chmod u+x bin/magento
 ### Connector
 * [SAP Business One Integration Add-on for Magento 2](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
 * [APPSeCONNECT](https://www.appseconnect.com/sap-business-one-and-magento-integration/)
+* [SAP Business One Connect, i95Dev](https://marketplace.magento.com/i95dev-i95devsapconnect.html#bv_questions)
