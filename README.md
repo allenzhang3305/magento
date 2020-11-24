@@ -3,6 +3,9 @@
 * [MySQL](#mysql)
 * [Install the Magento with the compressed archive](#install-the-magento-with-the-compressed-archive)
 
+### Network overview
+![](https://raw.githubusercontent.com/MRLIVING/magento/master/doc/img/overview_network.PNG)
+
 ## Linux and Web server setup under GCE
 ### Time zone and ntp
 ```
