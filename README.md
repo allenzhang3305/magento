@@ -196,10 +196,10 @@ chmod u+x bin/magento
 
 * `magento setup:store-config:set --base-url="http://${Host-IP}/"`
 
-* [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)  
+* [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
   `magento module:status`
   
-* [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)
+* [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)  
   `magento module:disable Magento_TwoFactorAuth`
 
 ```
