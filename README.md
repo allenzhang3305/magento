@@ -202,8 +202,8 @@ chmod u+x bin/magento
 * [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)  
   `magento module:disable Magento_TwoFactorAuth`
 
-```
 
+## phpMyAdmin for MYSQL
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
