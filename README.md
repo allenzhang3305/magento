@@ -192,6 +192,9 @@ chmod u+x bin/magento
 
 * `magento -h`
 
+* `magento deploy:mode:show`
+  * `magento deploy:mode:set production`
+
 * `magento config:show`
 
 * `magento setup:store-config:set --base-url="http://${Host-IP}/"`
