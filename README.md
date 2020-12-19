@@ -190,6 +190,8 @@ chmod u+x bin/magento
 
 * `magento -h`
 
+* `magento module:disable Magento_TwoFactorAuth`
+
 * `magento deploy:mode:show`
   * `magento deploy:mode:set production`
 
