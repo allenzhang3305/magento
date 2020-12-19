@@ -219,5 +219,5 @@ TODO...
 * [SAP Business One Integration Add-on for Magento 2, Firebear](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
 * [APPSeCONNECT, insync](https://www.appseconnect.com/sap-business-one-and-magento-integration/)
 
-###
+### Extension installation
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
