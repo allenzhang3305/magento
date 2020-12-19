@@ -185,6 +185,8 @@ chmod u+x bin/magento
 ./bin/magento setup:install --base-url=http://${m2_host}/ --db-host=${db_host} --db-name=${db_name} --db-user=${db_user} --db-password=${dp_pass} --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=${admin_name} --admin-password=${admin_pass} --language=zh_Hant_TW --currency=TWD --timezone=Asia/Taipei --use-rewrites=1
 ```
 
+## Installation extension module
+TODO...
 
 ## Command-line
 
@@ -216,3 +218,6 @@ chmod u+x bin/magento
 * [SAP Business One Connect, i95Dev](https://marketplace.magento.com/i95dev-i95devsapconnect.html)
 * [SAP Business One Integration Add-on for Magento 2, Firebear](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
 * [APPSeCONNECT, insync](https://www.appseconnect.com/sap-business-one-and-magento-integration/)
+
+###
+* [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
