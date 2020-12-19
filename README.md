@@ -170,14 +170,15 @@ chmod u+x bin/magento
 
     server {
         listen 80;
-        server_name www.magento-dev.com;
+    #    server_name www.magento-dev.com;
         set $MAGE_ROOT /var/www/html/magento2;
         include /var/www/html/magento2/nginx.conf.sample;
     }
     ```
-  * 
-  `ln -s /etc/nginx/sites-available/magento /etc/nginx/sites-enabled`
-  `rm /etc/nginx/sites-enabled/default`
+    
+  * `ln -s /etc/nginx/sites-available/magento /etc/nginx/sites-enabled`
+  
+  * `rm /etc/nginx/sites-enabled/default`
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
