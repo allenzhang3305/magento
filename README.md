@@ -177,6 +177,7 @@ chmod u+x bin/magento
     ```
   * 
   `ln -s /etc/nginx/sites-available/magento /etc/nginx/sites-enabled`
+  `rm /etc/nginx/sites-enabled/default`
 
 ### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
