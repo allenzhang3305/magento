@@ -187,6 +187,9 @@ chmod u+x bin/magento
 
 ## Installation extension module
 TODO...
+### Composer
+* add MageWorx composer repository to your Magento composer.json file
+  `composer config repositories.mageworx_packages composer https://packages.mageworx.com/`
 
 ## Command-line
 
