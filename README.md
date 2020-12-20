@@ -193,6 +193,11 @@ TODO...
 * add MageWorx composer repository to your Magento composer.json file  
   `composer config ${vender repository name} composer ${url of composer repository}`
 * `composer require ${mageworx-module-composer-code}`
+
+* `./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor`
+
+* `./bin/magento setup:upgrade`
+
  
 
 ## Command-line
