@@ -189,7 +189,9 @@ chmod u+x bin/magento
 TODO...
 ### Composer
 * add MageWorx composer repository to your Magento composer.json file  
-  `composer config repositories.mageworx_packages composer https://packages.mageworx.com/`
+  `composer config ${vender repository name} composer ${url of composer repository}`
+* `composer require ${mageworx-module-composer-code}`
+ 
 
 ## Command-line
 
