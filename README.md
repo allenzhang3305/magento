@@ -1,7 +1,9 @@
 ## TOC
 * [Linux and Web server setup under GCE](#linux-and-web-server-setup-under-gce)
 * [MySQL](#mysql)
-* [Install the Magento with the compressed archive](#install-the-magento-with-the-compressed-archive)
+* [Magento installation](#magento-installation)
+* [Magento extension module installation ](#magento-installation)
+
 
 ### Network overview
 ![](https://raw.githubusercontent.com/MRLIVING/magento/master/doc/img/overview_network.PNG)
@@ -112,7 +114,7 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-li
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
-## [Install the Magento with the compressed archive](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
+## [Magento installation](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
   ```
   sudo adduser <magento_user>
@@ -185,7 +187,7 @@ chmod u+x bin/magento
 ./bin/magento setup:install --base-url=http://${m2_host}/ --db-host=${db_host} --db-name=${db_name} --db-user=${db_user} --db-password=${dp_pass} --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=${admin_name} --admin-password=${admin_pass} --language=zh_Hant_TW --currency=TWD --timezone=Asia/Taipei --use-rewrites=1
 ```
 
-## Installation extension module
+## Magento extension module installation 
 TODO...
 ### Composer
 * add MageWorx composer repository to your Magento composer.json file  
