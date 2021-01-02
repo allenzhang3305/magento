@@ -220,7 +220,7 @@ TODO...
   `magento module:disable Magento_TwoFactorAuth`
 
 
-## phpMyAdmin for MYSQL
+## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
