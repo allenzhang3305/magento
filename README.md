@@ -198,7 +198,15 @@ TODO...
 
 * `./bin/magento setup:upgrade`
 
- 
+### Copy extension folder and files
+
+### 3rd-party extensions
+* [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
+```
+composer require mageplaza/module-smtp
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
 
 ## Command-line
 
