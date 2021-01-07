@@ -202,6 +202,7 @@ TODO...
 
 ### 3rd-party extensions
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
+  * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
 ```
 composer require mageplaza/module-smtp
 php bin/magento setup:upgrade
