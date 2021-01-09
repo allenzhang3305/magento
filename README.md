@@ -210,7 +210,8 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-## Setup `URL for Static View Files` and `URL for User Media Files` for CDN
+## Setup GCP CDN
+### Change the base URLs for `Static View Files` and `User Media Files`
 * disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
   * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
 
