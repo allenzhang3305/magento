@@ -226,7 +226,8 @@ php bin/magento setup:static-content:deploy
 
 * `magento config:show`
 
-* `magento setup:store-config:set --base-url="http://${Host-IP}/"`
+* `magento setup:store-config:set, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
+   * `magento setup:store-config:set --base-url="http://${Host-IP}/"`
 
 * [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
   `magento module:status`
