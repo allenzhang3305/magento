@@ -237,7 +237,8 @@ php bin/magento setup:static-content:deploy
   
 * [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)  
   `magento module:disable Magento_TwoFactorAuth`
-
+  
+* `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
 ## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
