@@ -215,6 +215,8 @@ php bin/magento setup:static-content:deploy
 * disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
   * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
 
+*TODO? [Regenerate catalog cache images issues](https://magento.stackexchange.com/questions/175224/regenerate-catalog-cache-images-issues)
+
 ## Command-line
 
 * `magento -h`
