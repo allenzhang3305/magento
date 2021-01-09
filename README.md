@@ -3,6 +3,7 @@
 * [MySQL](#mysql)
 * [Magento installation](#magento-installation)
 * [Magento extension module installation ](#magento-extension-module-installation)
+* [CLI](#command-line)
 
 
 ### Network overview
