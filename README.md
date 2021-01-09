@@ -114,10 +114,6 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-li
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
-## Setup `URL for Static View Files` and `URL for User Media Files` for CDN
-* disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
-  * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
-
 ## [Magento installation](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
   ```
@@ -203,6 +199,7 @@ TODO...
 * `./bin/magento setup:upgrade`
 
 ### Copy extension folder and files
+TODO...
 
 ### 3rd-party extensions
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
@@ -212,6 +209,10 @@ composer require mageplaza/module-smtp
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
+
+## Setup `URL for Static View Files` and `URL for User Media Files` for CDN
+* disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
+  * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
 
 ## Command-line
 
