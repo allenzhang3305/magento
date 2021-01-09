@@ -215,8 +215,8 @@ php bin/magento setup:static-content:deploy
 
 * `magento module:disable Magento_TwoFactorAuth`
 
-* `magento deploy:mode:show`
-  * `magento deploy:mode:set production`
+* `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
+  * `magento deploy:mode:set ${mode}`, where ${mode} can be either `default`, `developer`, or `production`.
 
 * `magento config:show`
 
