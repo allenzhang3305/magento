@@ -224,10 +224,10 @@ php bin/magento setup:static-content:deploy
 * `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
   * `magento deploy:mode:set ${mode}`, where ${mode} can be either `default`, `developer`, or `production`.
 
-* `magento config:show`
+* `magento config:show`, see [Display the value of configuration settings](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-show)
 
-* `magento setup:store-config:set, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
-   * `magento setup:store-config:set --base-url="http://${Host-IP}/"`
+* `magento setup:store-config:set`, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
+   * `magento setup:store-config:set --base-url="http://${Host-IP}/"`   
 
 * [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
   `magento module:status`
