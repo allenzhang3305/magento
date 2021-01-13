@@ -209,6 +209,10 @@ TODO...
 TODO...
 
 ### 3rd-party extensions
+* [Simple Chinese Language Pack](https://marketplace.magento.com/sunflowerbiz-magento-2-chinese-language-pack.html)
+  * unzip the zip package into /${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/
+  * magento setup:upgrade
+
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
   * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
 ```
@@ -217,7 +221,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-## Setup GCP CDN
+## Setup GCP CDN (Alpha)
 ### Change the base URLs for `Static View Files` and `User Media Files`
 * Disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
   * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
