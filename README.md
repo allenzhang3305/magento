@@ -76,6 +76,9 @@ phpinfo();
 
 ## MySQL
 ### [Installing MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-ubuntu)
+* MySQL `v8.0`
+* Character set `utf8mb4`
+* Collation `utf8mb4_0900_ai_ci`
 ### install mysql-client
 ```
 apt-get install mysql-client-core-8.0
