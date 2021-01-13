@@ -210,8 +210,8 @@ TODO...
 
 ### 3rd-party extensions
 * [Simple Chinese Language Pack](https://marketplace.magento.com/sunflowerbiz-magento-2-chinese-language-pack.html)
-  * unzip the zip package into /${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/
-  * magento setup:upgrade
+  * unzip the zip package into `/${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/`
+  * `magento setup:upgrade`
 
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
   * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
