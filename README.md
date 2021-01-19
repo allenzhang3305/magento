@@ -230,7 +230,11 @@ php bin/magento setup:static-content:deploy
 
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
-    * [mPDF](https://github.com/mpdf/mpdf) `composer require mpdf/mpdf`
+    * [mPDF](https://github.com/mpdf/mpdf) 
+      ```
+      cd /var/www/
+      composer require mpdf/mpdf
+      ```
 
 ## Setup GCP CDN (Alpha)
 ### Change the base URLs for `Static View Files` and `User Media Files`
