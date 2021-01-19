@@ -196,6 +196,9 @@ chmod u+x bin/magento
 * `magento info:currency:list`
 * `magento info:timezone:list`
 
+### [Install sample data after Magento](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html)
+* [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
+
 
 ## Magento extension module installation 
 TODO...
