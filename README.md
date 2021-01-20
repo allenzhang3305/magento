@@ -269,6 +269,8 @@ php bin/magento setup:static-content:deploy
   
 * `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
+* `bin/magento c:f`, cache:flush see [Clean and flush cache types](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#config-cli-subcommands-cache-clean)
+
 * `bin/magento catalog:image:resize`, see [Resize catalog images](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images)
 
 ## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
