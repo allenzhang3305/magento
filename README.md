@@ -230,15 +230,15 @@ composer require mageplaza/module-smtp
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
-  * empty the value field of the key "repositories" in `${M2_Root}/composer.json` if the composer installation is failed.
+  * empty the value field of the key "repositories" in `${M2_Root}/composer.json` if the composer installation is failed.  
 replace 
 ```
 ...
 "repositories": [                                                                                              
-{                                                                                                          
-    "type": "composer",                                                                                    
-    "url": "https://repo.magento.com/"                                                                     
-}                                                                                                          
+    {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+    }
 ], 
 ...
 ```
