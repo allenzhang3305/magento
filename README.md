@@ -226,11 +226,27 @@ TODO...
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
   * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
 ```
-composer require mageplaza/module-smtp
+composer require mageplaza/module-smtp  
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
-
+  * empty the value field of the key "repositories" in `${M2_Root}/composer.json` if the composer installation is failed.
+```
+replace 
+...
+"repositories": [                                                                                              
+{                                                                                                          
+    "type": "composer",                                                                                    
+    "url": "https://repo.magento.com/"                                                                     
+}                                                                                                          
+], 
+...
+```
+with 
+```
+...
+"repositories": [], 
+```
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
     * [mPDF](https://github.com/mpdf/mpdf) 
