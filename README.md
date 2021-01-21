@@ -231,8 +231,8 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
   * empty the value field of the key "repositories" in `${M2_Root}/composer.json` if the composer installation is failed.
-```
 replace 
+```
 ...
 "repositories": [                                                                                              
 {                                                                                                          
