@@ -263,6 +263,8 @@ with
 * Pre-generate all necessary resizes `magento catalog:image:resize` 
   * see [Regenerate catalog cache images issues](https://magento.stackexchange.com/questions/175224/regenerate-catalog-cache-images-issues)
 
+* [Using a Custom Admin URL](https://docs.magento.com/user-guide/stores/store-urls-custom-admin.html)
+
 ## Command-line
 
 * `magento -h`
