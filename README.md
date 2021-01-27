@@ -276,6 +276,7 @@ with
 
 * `magento setup:store-config:set`, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
    * `magento setup:store-config:set --base-url="http://${Host-IP}/"`   
+   * `magento config:set admin/url/use_custom 0`, revert to the default Admin URL
 
 * [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
   `magento module:status`
