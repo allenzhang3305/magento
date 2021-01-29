@@ -296,15 +296,16 @@ with
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
-* [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
+* [How to Create Module in Magento 2](https://www.mageplaza.com/magento-2-module-development/how-create-hello-world-module-magento-2.html)
 
 ### Connector, [evaluation](https://docs.google.com/spreadsheets/d/1i0igXkdmvaEnmVIAXKGaDJ4-dELUSeVPWHXuPT6NaEg/edit?usp=sharing)
 * [SAP Business One Connect, i95Dev](https://marketplace.magento.com/i95dev-i95devsapconnect.html)
 * [SAP Business One Integration Add-on for Magento 2, Firebear](https://firebearstudio.com/sap-business-one-integration-add-on-for-magento-2.html)
 * [APPSeCONNECT, insync](https://www.appseconnect.com/sap-business-one-and-magento-integration/)
 
-### Extension installation
+### Extension
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
+* [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
 
 ### Theme
 * [Porto | Ultimate Responsive Magento Theme](https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864)
