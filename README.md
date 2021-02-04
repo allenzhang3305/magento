@@ -248,7 +248,7 @@ with
 "repositories": [], 
 ```
 
-* [Order Editor](https://www.mageworx.com/magento2-order-editor-extension.html)
+* [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
 ```
 composer require matomo/device-detector
 ```
