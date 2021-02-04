@@ -243,14 +243,16 @@ replace
 ...
 ```
 with 
-```
-...
-"repositories": [], 
-```
+  ```
+  ...
+  "repositories": [], 
+  ```
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
   ```
   composer require matomo/device-detector
+  # copy unzip folder MageWorx/ to ${M2_Base}/app/code/
+  magento setup:upgrade
   ```
 TODO...
 
