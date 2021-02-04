@@ -249,9 +249,9 @@ with
 ```
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
-```
-composer require matomo/device-detector
-```
+  ```
+  composer require matomo/device-detector
+  ```
 TODO...
 
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
