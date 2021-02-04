@@ -247,6 +247,13 @@ with
 ...
 "repositories": [], 
 ```
+
+* [Order Editor](https://www.mageworx.com/magento2-order-editor-extension.html)
+```
+composer require matomo/device-detector
+```
+TODO...
+
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
     * [mPDF](https://github.com/mpdf/mpdf) 
