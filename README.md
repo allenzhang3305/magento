@@ -315,7 +315,7 @@ TODO...
 ### Extension
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
 * [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
-* [Shipping Rules](https://amasty.com/shipping-rules-for-magento-2.html)
+* [Amasty - Shipping Rules](https://amasty.com/shipping-rules-for-magento-2.html)
 
 ### Theme
 * [Porto | Ultimate Responsive Magento Theme](https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864)
