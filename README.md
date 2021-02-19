@@ -201,21 +201,22 @@ chmod u+x bin/magento
 * [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
 
 
-## Magento extension module installation 
-TODO...
-### Composer
+## Magento extension module
+### Installation
+#### Composer
 * add MageWorx composer repository to your Magento composer.json file  
   `composer config ${vender repository name} composer ${url of composer repository}`
+
 * `composer require ${mageworx-module-composer-code}`
 
 * `./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor`
 
 * `./bin/magento setup:upgrade`
 
-### Copy extension folder and files
+#### Copy extension folder and files
 TODO...
 
-### 3rd-party extensions
+#### 3rd-party extensions
 * [Simple Chinese Language Pack](https://marketplace.magento.com/sunflowerbiz-magento-2-chinese-language-pack.html)
   * unzip the zip package into `/${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/`
   * `magento setup:upgrade`
