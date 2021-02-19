@@ -5,6 +5,7 @@
 * [Magento extension module](#magento-extension-module)
   * [3rd-party extensions](#3rd-party-extensions) 
 * [CLI](#command-line)
+* [Reference](#reference)
 
 
 ### Network overview
