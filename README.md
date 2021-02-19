@@ -8,7 +8,7 @@
 * [Reference](#reference)
 
 
-### Network overview
+## Network overview
 ![](https://raw.githubusercontent.com/MRLIVING/magento/master/doc/img/overview_network.PNG)
 
 ## Linux and Web server setup under GCE
