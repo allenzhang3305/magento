@@ -2,7 +2,8 @@
 * [Linux and Web server setup under GCE](#linux-and-web-server-setup-under-gce)
 * [MySQL](#mysql)
 * [Magento installation](#magento-installation)
-* [Magento extension module installation ](#magento-extension-module-installation)
+* [Magento extension module](#magento-extension-module)
+  * [3rd-party extensions](#3rd-party-extensions) 
 * [CLI](#command-line)
 
 
