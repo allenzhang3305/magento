@@ -314,6 +314,7 @@ TODO...
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
 * [How to Create Module in Magento 2](https://www.mageplaza.com/magento-2-module-development/how-create-hello-world-module-magento-2.html)
   * [How to Create Controller](https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html)
+* [How to Override Model in Magento 2](https://magenticians.com/override-model-magento-2/)
 
 ### Extension
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
