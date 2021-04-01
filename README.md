@@ -288,6 +288,9 @@ TODO...
 * `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
   * `magento deploy:mode:set ${mode}`, where ${mode} can be either `default`, `developer`, or `production`.
 
+* `magento maintenance:status`, see [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html)
+  *  `magento maintenance:disable`
+
 * `magento config:show`, see [Display the value of configuration settings](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-show)
 
 * `magento setup:store-config:set`, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
