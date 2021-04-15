@@ -267,6 +267,12 @@ TODO...
       composer require mpdf/mpdf
       ```
 
+## [Upgrade Magento](https://devdocs.magento.com/guides/v2.4/comp-mgr/cli/cli-upgrade.html#manage-packages)
+### Install the Composer update plugin
+`composer require magento/composer-root-update-plugin=~1.0 --no-update`
+TODO ...
+
+
 ## Setup GCP CDN (Alpha)
 ### Change the base URLs for `Static View Files` and `User Media Files`
 * Disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
