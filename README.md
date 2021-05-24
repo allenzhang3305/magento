@@ -320,7 +320,7 @@ TODO ...
 
 ## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
-## Web API 
+## [Web API](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
 * [Token-based authentication](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html)
 TODO ...
 
