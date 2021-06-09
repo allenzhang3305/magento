@@ -228,28 +228,28 @@ TODO...
 
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
   * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
-```
-composer require mageplaza/module-smtp  
-php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy
-```
+    ```
+    composer require mageplaza/module-smtp  
+    php bin/magento setup:upgrade
+    php bin/magento setup:static-content:deploy
+    ```
   * empty "repositories" array in `${M2_Root}/composer.json` if the composer installation failed.  
-replace 
-```
-...
-"repositories": [                                                                                              
-    {
-        "type": "composer",
-        "url": "https://repo.magento.com/"
-    }
-], 
-...
-```
-with 
-  ```
-  ...
-  "repositories": [], 
-  ```
+    replace 
+    ```
+    ...
+    "repositories": [                                                                                              
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ], 
+    ...
+    ```
+    with 
+    ```
+    ...
+    "repositories": [], 
+    ```
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
   ```
@@ -266,6 +266,11 @@ TODO...
       cd /var/www/
       composer require mpdf/mpdf
       ```
+
+* [Facebook Business Extension](https://marketplace.magento.com/facebook-facebook-for-magento2.html)
+  * [install guide](https://marketplace.magento.com/media/catalog/product/facebook-facebook-for-magento2-1-4-2-ce/installation_guides.pdf)
+  * 注意事項: 記得要照安裝手冊中的把 php-business-sdk 裝起來。
+  
 
 ## [Upgrade Magento](https://devdocs.magento.com/guides/v2.4/comp-mgr/cli/cli-upgrade.html#manage-packages)
 ### Install the Composer update plugin
