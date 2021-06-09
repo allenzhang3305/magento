@@ -1,0 +1,6 @@
+source : https://marketplace.magento.com/facebook-facebook-for-magento2.html?fbclid=IwAR2Tfj8E1ONARKI0Fg_4ZObMwN0EDh6D8MimlqDbIDHTakA7A8D3rnHcXrY
+
+install guide : https://marketplace.magento.com/media/catalog/product/facebook-facebook-for-magento2-1-4-2-ce/installation_guides.pdf
+
+注意事項: 記得要照安裝手冊中的把 php-business-sdk 裝起來。
+
