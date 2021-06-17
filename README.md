@@ -323,11 +323,14 @@ TODO ...
 
 * `bin/magento catalog:image:resize`, see [Resize catalog images](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images)
 
-## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
 ## [Web API](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
 * [Token-based authentication](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html)
 TODO ...
+
+## [Variables and configuration paths](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-sens.html#general-category-sensitive-and-system-specific-paths)
+
+## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
