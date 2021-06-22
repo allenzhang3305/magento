@@ -296,8 +296,6 @@ TODO ...
 
 * `magento -h`
 
-* `magento module:disable Magento_TwoFactorAuth`
-
 * `magento admin:user:create`, create an new admin user, see [Create or edit an administrator](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-admin.html#create-or-edit-an-administrator)
 
 * `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
