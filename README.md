@@ -305,9 +305,11 @@ TODO ...
   *  `magento maintenance:disable`
 
 * `magento config:show`, see [Display the value of configuration settings](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-show)
-
+   * `magento config:show | grep 'base_url'`
+  
 * `magento setup:store-config:set`, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
    * `magento setup:store-config:set --base-url="http://${Host-IP}/"`   
+   * `magento setup:store-config:set --base-url-secure="https://${Host-IP}/"`
    * `magento config:set admin/url/use_custom 0`, revert to the default Admin URL
 
 * [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
