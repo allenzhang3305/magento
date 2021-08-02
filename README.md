@@ -347,6 +347,10 @@ TODO ...
 * [Facebook Business Extension](https://marketplace.magento.com/facebook-facebook-for-magento2.html)
 * [Magezon Page Builder extension, community](https://www.magezon.com/magezon-page-builder-for-magento-2.html)
 * [Amasty - Shipping Rules](https://amasty.com/shipping-rules-for-magento-2.html)
+* payment getway
+  * [PayU module for Magento 2 version 2.4](https://github.com/PayU-EMEA/plugin_magento_24)
+  * [Stripe Payments](https://marketplace.magento.com/stripe-stripe-payments.html)
+  * [PayU module for Magento 2 version 2.4](https://github.com/PayU-EMEA/plugin_magento_24)
 
 ### Theme
 * [Porto | Ultimate Responsive Magento Theme](https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864)
