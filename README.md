@@ -338,7 +338,7 @@ TODO ...
 
 ## Reference
 * [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
-* [How to Create Module in Magento 2](https://www.mageplaza.com/magento-2-module-development/how-create-hello-world-module-magento-2.html)
+* [How to Create a Module in Magento 2](https://devdocs.magento.com/videos/fundamentals/create-a-new-module)
   * [How to Create Controller](https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html)
 * [How to use Plugin, Preference to rewrite Block, Model, Controller, Helper in Magento 2](https://www.mageplaza.com/devdocs/how-use-plugin-preference-rewrite-block-model-controller-helper-magento-2.html)
 
