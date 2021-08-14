@@ -341,6 +341,7 @@ TODO ...
 * [How to Create a Module in Magento 2](https://devdocs.magento.com/videos/fundamentals/create-a-new-module)
   * [How to Create Controller](https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html)
   * [Create View: Block, Layouts, Templates](https://www.mageplaza.com/magento-2-module-development/view-block-layout-template-magento-2.html#step-3-create-block)
+  * [Return a JSON Response from Controller](https://meetanshi.com/blog/return-json-response-from-controller-in-magento-2/)
 * [Layout instructions](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html)
 * [How to use Plugin, Preference to rewrite Block, Model, Controller, Helper in Magento 2](https://www.mageplaza.com/devdocs/how-use-plugin-preference-rewrite-block-model-controller-helper-magento-2.html)
 
@@ -351,7 +352,7 @@ TODO ...
 * [Amasty - Shipping Rules](https://amasty.com/shipping-rules-for-magento-2.html)
 * payment getway  
   * [Stripe Payments](https://marketplace.magento.com/stripe-stripe-payments.html)
-  * [PayU module for Magento 2 version 2.4](https://github.com/PayU-EMEA/plugin_magento_24)
+  * [PayU module for Magento 2 version 2.4](https://github.com/PayU-EMEA/plugin_magento_24)  
 
 ### Theme
 * [Porto | Ultimate Responsive Magento Theme](https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864)
