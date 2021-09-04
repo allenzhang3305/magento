@@ -337,7 +337,7 @@ TODO ...
 ## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
 
 ## Reference
-* [magento helpful resources](https://devdocs.magento.com/guides/v2.4/install-gde/install-resources-parent.html)
+* [Magento 2 Developer Guide](https://github.com/MRLIVING/magento/edit/master/README.md)
 * [How to Create a Module in Magento 2](https://devdocs.magento.com/videos/fundamentals/create-a-new-module)
   * [How to Create Controller](https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html)
   * [Create View: Block, Layouts, Templates](https://www.mageplaza.com/magento-2-module-development/view-block-layout-template-magento-2.html#step-3-create-block)
