@@ -342,6 +342,7 @@ TODO ...
   * [How to Create Controller](https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html)
   * [Create View: Block, Layouts, Templates](https://www.mageplaza.com/magento-2-module-development/view-block-layout-template-magento-2.html#step-3-create-block)
   * [Return a JSON Response from Controller](https://meetanshi.com/blog/return-json-response-from-controller-in-magento-2/)
+* [Custom API for Magento 2](https://inchoo.net/magento-2/magento-2-custom-api/)
 * [Layout instructions](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html)
 * [How to use Plugin, Preference to rewrite Block, Model, Controller, Helper in Magento 2](https://www.mageplaza.com/devdocs/how-use-plugin-preference-rewrite-block-model-controller-helper-magento-2.html)
 
