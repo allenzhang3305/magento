@@ -345,6 +345,7 @@ TODO ...
 * [Custom Web API for Magento 2](https://inchoo.net/magento-2/magento-2-custom-api/)
 * [Layout instructions](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html)
 * [How to use Plugin, Preference to rewrite Block, Model, Controller, Helper in Magento 2](https://www.mageplaza.com/devdocs/how-use-plugin-preference-rewrite-block-model-controller-helper-magento-2.html)
+* [Virtual Types, Types, Preferences: Magento 2 Design Patterns](https://magently.com/blog/magento-2-design-patterns-preferences-virtual-types/)
 
 ### Extension
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
