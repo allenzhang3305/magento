@@ -318,6 +318,10 @@ TODO ...
 * [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)  
   `magento module:disable Magento_TwoFactorAuth`
   
+* [Uninstall a module](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst)  
+  `bin/magento module:uninstall ${ModuleName}`  
+  , where ${ModuleName} specifies the module name in <VendorName>_<ModuleName> format
+ 
 * `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
 * `bin/magento c:f`, cache:flush see [Clean and flush cache types](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#config-cli-subcommands-cache-clean)
