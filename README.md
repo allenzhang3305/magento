@@ -120,6 +120,8 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-li
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
 
+* [Setup Chinese Analyzer](https://github.com/MRLIVING/M2-ESIKAnalyzer)
+
 ## [Magento installation](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
   ```
