@@ -353,6 +353,7 @@ TODO ...
 * [How to use Plugin, Preference to rewrite Block, Model, Controller, Helper in Magento 2](https://www.mageplaza.com/devdocs/how-use-plugin-preference-rewrite-block-model-controller-helper-magento-2.html)
 * [Plugin - Interceptor](https://www.mageplaza.com/magento-2-module-development/magento-2-plugin-interceptor.html)
 * [Virtual Types, Types, Preferences: Magento 2 Design Patterns](https://magently.com/blog/magento-2-design-patterns-preferences-virtual-types/)
+  * [What is the difference between type and virtualType](https://magento.stackexchange.com/questions/33103/what-is-the-difference-between-type-and-virtualtype)
 
 ### Extension
 * [How To Install/Uninstall Magento 2 Extensions (Detailed Examples)](https://bsscommerce.com/blog/how-to-install-extension-in-magento-2/#I_Install_Magento_2_Extension)
