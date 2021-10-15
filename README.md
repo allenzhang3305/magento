@@ -268,8 +268,7 @@ TODO...
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
     * [mPDF](https://github.com/mpdf/mpdf) 
-      ```
-      cd /var/www/
+      ```      
       composer require mpdf/mpdf
       ```
 
