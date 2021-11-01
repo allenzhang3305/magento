@@ -133,7 +133,7 @@ jps
 /// ...
 ```
 
-#### Start ES demon if you haven't seen the process via [JPS](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html) command
+#### Start ES demon if you haven't seen the process via the [JPS](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html) command
 ```
 sudo su -l elk
 cd elasticsearch-7.6.2/
