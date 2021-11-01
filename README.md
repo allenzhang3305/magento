@@ -122,6 +122,24 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 
 * [Setup Chinese Analyzer](https://github.com/MRLIVING/M2-ESIKAnalyzer)
 
+### Check and Start ES demon
+#### Check ES demon
+```
+sudo su -l elk
+jps
+
+/// You should see the message below
+/// xxx Elasticsearch
+/// ...
+```
+
+#### Start ES demon if you haven't seen the process via [JPS](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html) command
+```
+sudo su -l elk
+cd elasticsearch-7.6.2/
+./bin/elasticsearch -d
+```
+
 ## [Magento installation](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
 * Add an user as [magento file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-sys-perms-over.html#magento-file-system-owner)
   ```
