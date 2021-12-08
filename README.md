@@ -159,12 +159,8 @@ cd elasticsearch-7.6.2/
       unzip magento-ce-2.4.1-2020-09-25-04-08-02.zip
       ```
       
-  * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)
-    * Install Composer
-      ```
-      curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-      composer self-update 1.10.16    # downgrade it back to version 1.x due to a recent incompatibility issue with one of the packages.
-      ```
+  * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)  
+    * [Install Latest Composer](https://getcomposer.org/download/)    
     
     * Create a new Composer project (get the Magento software metapackage)
       ```
@@ -173,7 +169,12 @@ cd elasticsearch-7.6.2/
       composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
       ```      
       * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
-         
+
+    * Deprecated, Install Composer v1.x
+      ```
+      curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
+      composer self-update 1.10.16    # downgrade it back to version 1.x due to a recent incompatibility issue with one of the packages.
+      ```     
 
 
 * [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
