@@ -12,6 +12,10 @@
 ![](https://raw.githubusercontent.com/MRLIVING/magento/master/doc/img/overview_network.PNG)
 
 ## Linux and Web server setup under GCE
+###
+* `2vCPU` with `8GB` memory
+* `Ubuntu 20.04 LTS` with `200 GB` capacity 
+
 ### Time zone and ntp
 ```
 apt-get update
