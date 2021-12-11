@@ -169,8 +169,8 @@ cd elasticsearch-7.6.2/
     * Create a new Composer project (get the Magento software metapackage)
       ```
       sudo su -l <web server docroot>
-      cd /var/www/html/magento2
-      composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
+      cd /var/www/html/magento2      
+      composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.3-p1 .
       ```      
       * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
 
