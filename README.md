@@ -149,14 +149,14 @@ cd elasticsearch-7.6.2/
   ```
   sudo adduser <magento_user>
   sudo mkdir -p /var/www/html/magento2
+  sudo chown -R <magento_user>:<magento_user> magento2
   ```
 
 * Get the Magento package
   * [Build versions of compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.
     * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
       ```            
-      sudo cp <src path>/magento-ce-2.4.1-2020-09-25-04-08-02.zip /var/www/html/magento2/
-      sudo chown -R <magento_user>:<magento_user> magento2
+      sudo cp <src path>/magento-ce-2.4.1-2020-09-25-04-08-02.zip /var/www/html/magento2/      
       
       sudo su -l <web server docroot>
       cd /var/www/html/magento2
