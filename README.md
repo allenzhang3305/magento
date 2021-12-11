@@ -156,11 +156,11 @@ cd elasticsearch-7.6.2/
   * [Build versions of compressed archive](https://magento.com/tech-resources/download), under **Archive (zip/tar)** section.
     * [Extract the software on your server](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html#zip-extract)
       ```            
-      sudo cp <src path>/magento-ce-2.4.1-2020-09-25-04-08-02.zip /var/www/html/magento2/      
+      sudo cp <src path>/magento-ce-2.4.3-p1-2021-09-23-07-56-34.zip /var/www/html/magento2/      
       
       sudo su -l <web server docroot>
       cd /var/www/html/magento2
-      unzip magento-ce-2.4.1-2020-09-25-04-08-02.zip
+      unzip magento-ce-2.4.3-p1-2021-09-23-07-56-34.zip
       ```
       
   * or [Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)  
