@@ -395,6 +395,7 @@ TODO ...
 
 ### Theme
 * [Porto | Ultimate Responsive Magento Theme](https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864)
+* [Learning Page Builder](https://docs.magento.com/user-guide/cms/page-builder-learn.html)
 
 ### Connector, [evaluation](https://docs.google.com/spreadsheets/d/1i0igXkdmvaEnmVIAXKGaDJ4-dELUSeVPWHXuPT6NaEg/edit?usp=sharing)
 * [SAP Business One Connect, i95Dev](https://marketplace.magento.com/i95dev-i95devsapconnect.html)
