@@ -140,9 +140,8 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 sudo su -l elk
 jps
 
-/// You should see the message below
-/// xxx Elasticsearch
-/// ...
+// You should see the message below
+${PID} Elasticsearch
 ```
 
 #### Start ES demon if you haven't seen the process via the [JPS](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html) command
