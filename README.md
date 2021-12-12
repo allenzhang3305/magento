@@ -123,8 +123,14 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-li
 ```
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
-* Configuration
+* Configuration for production mode
   * [Virtual memory](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html#vm-max-map-count)
+  * elasticsearch.yaml
+    ```
+    network.host: 0.0.0.0
+    discovery.seed_hosts: []
+    cluster.initial_master_nodes: []
+    ```
   
 * [Setup Chinese Analyzer](https://github.com/MRLIVING/M2-ESIKAnalyzer)
 
