@@ -123,7 +123,9 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-li
 ```
 tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
 ```
-
+* Configuration
+  * [Virtual memory](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html#vm-max-map-count)
+  
 * [Setup Chinese Analyzer](https://github.com/MRLIVING/M2-ESIKAnalyzer)
 
 ### Check and Start ES demon
