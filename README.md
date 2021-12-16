@@ -5,7 +5,7 @@
 * [Magento installation](#magento-installation)
 * [Magento extension module](#magento-extension-module)
   * [3rd-party extensions](#3rd-party-extensions) 
-* [CLI](#command-line)
+* [Command line interface, CLI](#command-line)
 * [Reference](#reference)
 
 
