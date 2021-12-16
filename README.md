@@ -243,7 +243,6 @@ cd elasticsearch-7.6.2/
 ### [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html)
 TODO ...
 
-
 ### [Install sample data after Magento](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html)
 * [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
 
@@ -305,6 +304,7 @@ TODO ...
 
 * `magento admin:user:create`, create an new admin user, see [Create or edit an administrator](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-admin.html#create-or-edit-an-administrator)
 
+### [About application modes](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html)
 * `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
   * `magento deploy:mode:set ${mode}`, where ${mode} can be either `default`, `developer`, or `production`.
 
@@ -337,6 +337,7 @@ TODO ...
  
 * `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
+[Clear directories during development](https://devdocs.magento.com/guides/v2.4/howdoi/php/php_clear-dirs.html#howdoi-clear-how)
 * `bin/magento c:f`, cache:flush see [Clean and flush cache types](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#config-cli-subcommands-cache-clean)
 
 * `./bin/magento indexer:status`, see [View indexer status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#view-indexer-status)
