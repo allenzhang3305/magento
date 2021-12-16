@@ -274,10 +274,11 @@ TODO ...
   ```
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
-  ```
-  composer require matomo/device-detector  
-  magento setup:upgrade
-  ```
+  * prerequisites  
+    ```
+    composer require matomo/device-detector  
+    magento setup:upgrade
+    ```
  
   * download & unzip the package to ${M2_Base}/app/code/MageWorx
 
