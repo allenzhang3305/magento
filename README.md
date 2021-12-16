@@ -1,6 +1,7 @@
 ## TOC
 * [Linux and Web server setup under GCE](#linux-and-web-server-setup-under-gce)
 * [MySQL](#mysql)
+* [Elasticsearch](#elasticsearch)
 * [Magento installation](#magento-installation)
 * [Magento extension module](#magento-extension-module)
   * [3rd-party extensions](#3rd-party-extensions) 
