@@ -336,7 +336,9 @@ TODO...
 * `magento setup:store-config:set`, see [Configure the store](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-store.html#instgde-cli-storeconfig).
    * `magento setup:store-config:set --base-url="http://${Host-IP}/"`   
    * `magento setup:store-config:set --base-url-secure="https://${Host-IP}/"`
-   * `magento config:set admin/url/use_custom 0`, revert to the default Admin URL
+   * `magento config:set admin/url/use_custom 0`, revert to the default 
+
+* `bin/magento app:config:dump`, see [Export the configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html)
 
 * [list all enabled/disabled modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html#instgde-cli-subcommands-status)  
   `magento module:status`
