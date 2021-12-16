@@ -277,15 +277,15 @@ TODO ...
   ```
   composer require matomo/device-detector  
   magento setup:upgrade
-  ```  
+  ```
  
   * download & unzip the package to ${M2_Base}/app/code/MageWorx
-  
-  * enable modules 
-  ```
-  ./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor
-  ./bin/magento setup:upgrade
-  ```
+
+  * enable modules  
+    ```
+    ./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor
+    ./bin/magento setup:upgrade
+    ```
 
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
