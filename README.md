@@ -3,7 +3,7 @@
 * [MySQL](#mysql)
 * [Elasticsearch](#elasticsearch)
 * [Magento installation](#magento-installation)
-* [Magento extension module](#magento-extension-module)
+* [Magento extension module installation](#magento-extension-module-installation)
   * [3rd-party extensions](#3rd-party-extensions) 
 * [CLI - Command line interface](#command-line-interface)
 * [Reference](#reference)
