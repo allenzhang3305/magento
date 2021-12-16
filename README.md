@@ -316,23 +316,6 @@ TODO...
   * [install guide](https://marketplace.magento.com/media/catalog/product/facebook-facebook-for-magento2-1-4-2-ce/installation_guides.pdf)
   * 注意事項: 記得要照安裝手冊中的把 php-business-sdk 裝起來。
   
-
-## [Upgrade Magento](https://devdocs.magento.com/guides/v2.4/comp-mgr/cli/cli-upgrade.html#manage-packages)
-### Install the Composer update plugin
-`composer require magento/composer-root-update-plugin=~1.0 --no-update`
-TODO ...
-
-
-## Setup GCP CDN (Alpha)
-### Change the base URLs for `Static View Files` and `User Media Files`
-* Disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
-  * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
-
-* Pre-generate all necessary resizes `magento catalog:image:resize` 
-  * see [Regenerate catalog cache images issues](https://magento.stackexchange.com/questions/175224/regenerate-catalog-cache-images-issues)
-
-* [Using a Custom Admin URL](https://docs.magento.com/user-guide/stores/store-urls-custom-admin.html)
-
 ## Command-line
 
 * `magento -h`
@@ -375,13 +358,33 @@ TODO ...
 * `bin/magento catalog:image:resize`, see [Resize catalog images](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images)
 
 
+## [Upgrade Magento](https://devdocs.magento.com/guides/v2.4/comp-mgr/cli/cli-upgrade.html#manage-packages)
+### Install the Composer update plugin
+`composer require magento/composer-root-update-plugin=~1.0 --no-update`
+TODO ...
+
+
 ## [Web API](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
 * [Token-based authentication](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html)
 TODO ...
 
+
+## Setup GCP CDN (Alpha)
+### Change the base URLs for `Static View Files` and `User Media Files`
+* Disable [Static content signing](https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html)
+  * see [ref](https://magento.stackexchange.com/questions/167278/where-do-i-point-my-secure-base-url-for-static-view-files-for-cdn-in-magento-2)
+
+* Pre-generate all necessary resizes `magento catalog:image:resize` 
+  * see [Regenerate catalog cache images issues](https://magento.stackexchange.com/questions/175224/regenerate-catalog-cache-images-issues)
+
+* [Using a Custom Admin URL](https://docs.magento.com/user-guide/stores/store-urls-custom-admin.html)
+* 
+
 ## [Variables and configuration paths](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-sens.html#general-category-sensitive-and-system-specific-paths)
 
+
 ## [phpMyAdmin for MYSQL](https://github.com/MRLIVING/magento/wiki/phpMyAdmin-on-GCE-with-Cloud-MySQL)
+
 
 ## Reference
 * [Magento 2 Developer Guide](https://devdocs.magento.com/)
