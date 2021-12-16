@@ -159,6 +159,9 @@ ${PID} Elasticsearch
 sudo su -l elk
 cd elasticsearch-7.6.2/
 ./bin/elasticsearch -d
+
+# check ES alive
+curl localhost:9200/_state
 ```
 
 ## [Magento installation](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/zip_install.html)
