@@ -199,16 +199,16 @@ cd elasticsearch-7.6.2/
 
 
 * [Set ownership and permissions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html#perms-private)
-```
-sudo usermod -a -G www-data <magento_user>
+  ```
+  sudo usermod -a -G www-data <magento_user>
 
-su -l <magento_user>
-cd <magento_root>
-find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
-find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
-chown -R :www-data .
-chmod u+x bin/magento
-```
+  su -l <magento_user>
+  cd <magento_root>
+  find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
+  find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
+  chown -R :www-data .
+  chmod u+x bin/magento
+  ```
 
 * Config the [Server Block](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/#two-server-blocks-serving-static-files) of Nginx
   * [nginx server configuration](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)     
@@ -248,22 +248,8 @@ TODO ...
 * [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
 
 
-## Magento extension module
-### Installation
-#### Composer
-* add MageWorx composer repository to your Magento composer.json file  
-  `composer config ${vender repository name} composer ${url of composer repository}`
-
-* `composer require ${mageworx-module-composer-code}`
-
-* `./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor`
-
-* `./bin/magento setup:upgrade`
-
-#### Copy extension folder and files
-TODO...
-
-#### 3rd-party extensions
+## Magento extension module installation
+### 3rd-party extensions
 * [Simple Chinese Language Pack](https://marketplace.magento.com/sunflowerbiz-magento-2-chinese-language-pack.html)
   * unzip the zip package into `/${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/`
   * `magento setup:upgrade`
@@ -278,24 +264,7 @@ TODO...
     composer require mageplaza/module-smtp  
     php bin/magento setup:upgrade
     php bin/magento setup:static-content:deploy
-    ```
-  * empty "repositories" array in `${M2_Root}/composer.json` if the composer installation failed.  
-    replace 
-    ```
-    ...
-    "repositories": [                                                                                              
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        }
-    ], 
-    ...
-    ```
-    with 
-    ```
-    ...
-    "repositories": [], 
-    ```
+    ```    
 
 * [Magento 2 Currency Formatter extension](https://www.mageplaza.com/magento-2-currency-formatter/)  
   ```
@@ -306,11 +275,17 @@ TODO...
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
   ```
-  composer require matomo/device-detector
-  # copy unzip folder MageWorx/ to ${M2_Base}/app/code/
+  composer require matomo/device-detector  
   magento setup:upgrade
+  ```  
+ 
+  * download & unzip the package to ${M2_Base}/app/code/MageWorx
+  
+  * enable modules 
   ```
-TODO...
+  ./bin/magento module:enable MageWorx_Info MageWorx_OrdersBase MageWorx_OrderEditor
+  ./bin/magento setup:upgrade
+  ```
 
 * [Magento 2 PDF Customizer](https://www.magezon.com/magento-2-pdf-customizer.html)
   * prerequisites 
