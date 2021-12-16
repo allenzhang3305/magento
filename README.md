@@ -5,7 +5,7 @@
 * [Magento installation](#magento-installation)
 * [Magento extension module](#magento-extension-module)
   * [3rd-party extensions](#3rd-party-extensions) 
-* [Command line interface, CLI](#command-line)
+* [CLI - Command line interface](#command-line)
 * [Reference](#reference)
 
 
@@ -316,7 +316,7 @@ TODO...
   * [install guide](https://marketplace.magento.com/media/catalog/product/facebook-facebook-for-magento2-1-4-2-ce/installation_guides.pdf)
   * 注意事項: 記得要照安裝手冊中的把 php-business-sdk 裝起來。
   
-## Command-line
+## Command line interface
 
 * `magento -h`
 
