@@ -271,7 +271,7 @@ TODO...
     * backend console `STORES/ Configuration/ GENERAL/ General/ Locale Options/ Locale/ Chinese (Simplified Han, China)` and click `Save Config`
   * enable in backend
     * backend console `SYSTEM/ ALL USERS/ click an user/ Interface Locale/ Chinese (Simplified Han, China)`
-
+  
 * [The Most Popular SMTP for Magento 2](https://www.mageplaza.com/magento-2-smtp/)
   * [installation guide](https://www.mageplaza.com/install-magento-2-extension/#smtp)
     ```
@@ -296,6 +296,13 @@ TODO...
     ...
     "repositories": [], 
     ```
+
+* [Magento 2 Currency Formatter extension](https://www.mageplaza.com/magento-2-currency-formatter/)  
+  ```
+  composer require mageplaza/module-currency-formatter
+  php bin/magento setup:upgrade
+  php bin/magento setup:static-content:deploy
+  ```
 
 * [Order Editor](https://support.mageworx.com/manuals/order-editor/#requirements-and-installation)
   ```
