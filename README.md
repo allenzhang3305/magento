@@ -132,6 +132,15 @@ tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz
   cluster.initial_master_nodes: []
   ```
   
+### [Configure Commerce and Magento to use Elasticsearch](https://devdocs.magento.com/guides/v2.4/config-guide/elasticsearch/configure-magento.html)
+```
+Stores > Settings > Configuration > Catalog > Catalog > Catalog Search
+
+Elasticsearch Server Hostname
+Elasticsearch Server Port
+Elasticsearch Index Prefix
+```
+  
 ### [Setup Chinese Analyzer](https://github.com/MRLIVING/M2-ESIKAnalyzer)
 
 ### Check and Start ES demon
