@@ -337,7 +337,7 @@ TODO ...
  
 * `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
-[Clear directories during development](https://devdocs.magento.com/guides/v2.4/howdoi/php/php_clear-dirs.html#howdoi-clear-how)
+### [Clear directories during development](https://devdocs.magento.com/guides/v2.4/howdoi/php/php_clear-dirs.html)
 * `bin/magento c:f`, cache:flush see [Clean and flush cache types](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#config-cli-subcommands-cache-clean)
 
 * `./bin/magento indexer:status`, see [View indexer status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#view-indexer-status)
