@@ -311,6 +311,8 @@ TODO ...
 * `magento deploy:mode:show`, see [Set the Magento mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
   * `magento deploy:mode:set ${mode}`, where ${mode} can be either `default`, `developer`, or `production`.
 
+* `bin/magento setup:config:set --enable-debug-logging=true`, see [To enable debug logging](https://devdocs.magento.com/guides/v2.4/config-guide/cli/logging.html)
+
 * `magento setup:di:compile`, see [Code compiler](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-compiler.html)
 
 * `magento maintenance:status`, see [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html)
