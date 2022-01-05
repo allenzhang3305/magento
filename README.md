@@ -257,6 +257,7 @@ TODO ...
 
 ## Magento extension module installation
 ### 3rd-party extensions
+* see [Notion](https://marmalade-clownfish-09a.notion.site/Magento-e01b292a1ec24f72be644067db0a6b2c)
 * [Simple Chinese Language Pack](https://marketplace.magento.com/sunflowerbiz-magento-2-chinese-language-pack.html)
   * unzip the zip package into `/${M2_ROOT}/app/i18n/Sunflowerbiz/zh_hans_cn/`
   * `magento setup:upgrade`
