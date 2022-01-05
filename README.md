@@ -250,7 +250,9 @@ TODO ...
 * [Deploy Sample Data from Composer Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-composer-repository)
   `bin/magento sampledata:deploy`
   
-* [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
+* , or [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
+
+* `./bin/magento setup:upgrade` to enable
 
 ## Magento extension module installation
 ### 3rd-party extensions
