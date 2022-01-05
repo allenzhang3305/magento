@@ -233,7 +233,7 @@ curl localhost:9200/_state
   
   * `rm /etc/nginx/sites-enabled/default`
 
-### [Sample localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
+### [Simple localhost installations](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html#install-cli-example)
 ```
 ./bin/magento setup:install --base-url=http://${m2_host}/ --db-host=${db_host} --db-name=${db_name} --db-user=${db_user} --db-password=${dp_pass} --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=${admin_name} --admin-password=${admin_pass} --language=zh_Hant_TW --currency=TWD --timezone=Asia/Taipei --use-rewrites=1
 ```
@@ -247,8 +247,10 @@ curl localhost:9200/_state
 TODO ...
 
 ### [Install sample data after Magento](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html)
+* [Deploy Sample Data from Composer Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-composer-repository)
+  `bin/magento sampledata:deploy`
+  
 * [Deploy Sample Data from GitHub Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-github-repository)
-
 
 ## Magento extension module installation
 ### 3rd-party extensions
