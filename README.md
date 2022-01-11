@@ -246,6 +246,9 @@ curl localhost:9200/_state
 ### [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html)
 TODO ...
 
+### Tax configuration
+* [Price, Tax and Order Sync](https://docs.google.com/presentation/d/1wq-xGYyPNdLhyD10rrgC3rbb4hJiyihu_Egp0nlN4S0/edit#slide=id.gb2e0446177_1_11)
+
 ### [Install sample data after Magento](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html)
 * [Deploy Sample Data from Composer Repository](https://github.com/magento/magento2-sample-data#deploy-sample-data-from-composer-repository)
   `bin/magento sampledata:deploy`
