@@ -95,7 +95,7 @@ apt-get install mysql-client-core-8.0
 mysql -h {mysql_server_host} -u ${username} -p --ssl-mode=DISABLED
 ```
 
-`--ssl-mode=DISABLED` stands for [an unencrypted connection especially for legacy version](https://dev.mysql.com/doc/refman/5.7/en/connection-options.html#option_general_ssl-mode).
+`--ssl-mode=DISABLED` stands for [an unencrypted connection especially for the legacy versions.](https://dev.mysql.com/doc/refman/5.7/en/connection-options.html#option_general_ssl-mode).
 
 ### [Configuring the Magento database instance](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-config)
 * [GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
