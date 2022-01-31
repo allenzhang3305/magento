@@ -245,8 +245,11 @@ curl localhost:9200/_state
 * `magento info:currency:list`
 * `magento info:timezone:list`
 
-### [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html)
-TODO ...
+### [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-subcommands-staticview)
+```
+rm -rf ${magento_root}/pub/static/*
+./bin/magento setup:static-content:deploy
+```
 
 ### Tax configuration
 * [Price, Tax and Order Sync](https://docs.google.com/presentation/d/1wq-xGYyPNdLhyD10rrgC3rbb4hJiyihu_Egp0nlN4S0/edit#slide=id.gb2e0446177_1_11)
