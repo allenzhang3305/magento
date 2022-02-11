@@ -354,6 +354,8 @@ rm -rf ${magento_root}/pub/static/*
   `bin/magento module:uninstall ${ModuleName}`  
   , where `${ModuleName}` specifies the module name in `<VendorName>_<ModuleName>` format
  
+* [Enable JavaScript bundling](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/js-bundling.html#enable-javascript-bundling)  
+
 * `bin/magento cache:status`,  see [View the cache status](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html#view-the-cache-status)
 
 ### [Clear directories during development](https://devdocs.magento.com/guides/v2.4/howdoi/php/php_clear-dirs.html)
