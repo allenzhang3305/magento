@@ -328,6 +328,7 @@ rm -rf ${magento_root}/pub/static/*
 * `bin/magento setup:config:set --enable-debug-logging=true`, see [To enable debug logging](https://devdocs.magento.com/guides/v2.4/config-guide/cli/logging.html)
 
 * `magento setup:di:compile`, see [Code compiler](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-compiler.html)
+  * [Clear directories during development](https://devdocs.magento.com/guides/v2.4/howdoi/php/php_clear-dirs.html)
 
 * `magento maintenance:status`, see [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html)
   *  `magento maintenance:disable`
