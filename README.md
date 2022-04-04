@@ -262,6 +262,16 @@ rm -rf ${magento_root}/pub/static/*
 
 * Upgrade Magento to enable the sample data modules after the deployment  
   `./bin/magento setup:upgrade`
+  
+## [Configure Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html)
+* [Magento 2 Redis Configuration](https://www.getpagespeed.com/web-apps/magento/magento-2-redis-configuration)
+
+* check redis setting  
+  `redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"`
+  
+* restart redis  
+  `service redis-server restart`
+
 
 ## Magento extension module installation
 ### 3rd-party extensions
