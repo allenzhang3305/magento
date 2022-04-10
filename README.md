@@ -90,7 +90,9 @@ phpinfo();
 ```
 apt-get install mysql-client-core-8.0
 ```
-### usage
+
+### [usage](https://phoenixnap.com/kb/how-to-create-new-mysql-user-account-grant-privileges#:~:text=CREATE%20USER%20'username'%20IDENTIFIED%20BY,localhost%20to%20define%20the%20user.)
+
 ```
 mysql -h {mysql_server_host} -u ${username} -p --ssl-mode=DISABLED
 ```
