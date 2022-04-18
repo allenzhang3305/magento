@@ -91,7 +91,7 @@ phpinfo();
 apt-get install mysql-client-core-8.0
 ```
 
-#### client connection
+#### [connecting to the server via CLI](https://dev.mysql.com/doc/refman/8.0/en/connecting.html)
 ```
 mysql -h {mysql_server_host} -u ${username} -p --ssl-mode=DISABLED
 ```
