@@ -100,8 +100,12 @@ mysql -h {mysql_server_host} -u ${username} -p --ssl-mode=DISABLED
 
 ### [Configuring the Magento database instance](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-config)
 * [GRANT Statement](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
-* [Create a new user and grant access permissions](https://phoenixnap.com/kb/how-to-create-new-mysql-user-account-grant-privileges#:~:text=CREATE%20USER%20'username'%20IDENTIFIED%20BY,localhost%20to%20define%20the%20user)
+```
+GRANT SELECT ON *.* TO '$user'@'%';
+show grants for $user;
+```
 
+* [Create a new user and grant access permissions](https://phoenixnap.com/kb/how-to-create-new-mysql-user-account-grant-privileges#:~:text=CREATE%20USER%20'username'%20IDENTIFIED%20BY,localhost%20to%20define%20the%20user)
 ```
 create database magento;
 create user 'magento'@'<remote web node server ip address> or %' IDENTIFIED BY 'magento';
