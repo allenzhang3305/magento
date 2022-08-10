@@ -12,6 +12,8 @@
 ## Network overview
 ![](https://raw.githubusercontent.com/MRLIVING/magento/master/doc/img/overview_network.PNG)
 
+* [GCP Arch overview/mapping](https://app.diagrams.net/#G1z3-PmdoJ89EL4URcjBDHL6Wd3leBLHrk)
+
 ## Linux and Web server setup under GCE
 ###
 * `2vCPU` with `8GB` memory
